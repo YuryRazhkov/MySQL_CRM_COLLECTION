@@ -1,15 +1,13 @@
-
-
 insert into debtor_type values 
 		(1, 'физическое лицо'),
 		(2, 'юридическое лицо');
 
-insert into stage values 
+insert into stage values
 		(1, 'soft'),
 		(2, 'hard'),
 		(3, 'legal');
 
-insert into garant_type values 
+insert into garant_type values
 	(NULL, 'поручительство физического лица'),
     (NULL, 'поручительство юридического лица'),
 	(NULL, 'залог имущества физического лица'),
@@ -19,14 +17,14 @@ insert into garant_type values
 	(NULL, 'иное для физического лица'),
 	(NULL, 'иное для юридического лица');
 
-insert into currency values 
+insert into currency values
 	(NULL, 'USD'),
     (NULL, 'EUR'),
 	(NULL, 'RUR'),
     (NULL, 'BYN')
 ;
 
-insert into actions_type values 
+insert into actions_type values
 	(NULL, 'звонок'),
     (NULL, 'личная встреча'),
 	(NULL, 'письмо'),
@@ -34,7 +32,7 @@ insert into actions_type values
     (NULL, 'иное')
 ;
 
-insert into users values 
+insert into users values
 	(NULL, 'iyury', 'YURY IVANOV', '1245', '375297826545', 'yur@yur.by'),
     (NULL, 'yivan', 'Ivan Yuriev', '54321', '375297833545', '1tr@ur.by'),
     (NULL, 'szaya', 'Svetlana Zaiceva', 'jdhfd75', '375297289445', 'superzaya@fr.by')
@@ -4700,5 +4698,3 @@ INSERT INTO `actions` (`id`, `user`, `actions_type`, `date`, `body`, `case_id`) 
 INSERT INTO `actions` (`id`, `user`, `actions_type`, `date`, `body`, `case_id`) VALUES ('351', '3', '5', '2017-12-24 23:43:52', 'Laudantium inventore animi voluptas sunt voluptatem rerum. Ex officia esse nam. Sit est et ea quae earum et sit. Veniam voluptas aut nesciunt.', '17');
 INSERT INTO `actions` (`id`, `user`, `actions_type`, `date`, `body`, `case_id`) VALUES ('352', '2', '1', '1973-05-31 20:17:56', 'Corporis sit ratione alias nihil molestias iure alias. Deserunt eaque non et. Quo quos quia eum.', '111');
 INSERT INTO `actions` (`id`, `user`, `actions_type`, `date`, `body`, `case_id`) VALUES ('353', '1', '1', '2020-11-28 23:19:26', 'Voluptas velit hic autem illo quas molestiae. Maxime soluta sed dolores. Deserunt officiis harum sunt consectetur est. Sint quidem neque tenetur nesciunt tempora et illo blanditiis.', '95');
-
-
